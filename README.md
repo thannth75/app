@@ -23,3 +23,10 @@ A configuração `vercel.json` usa `dist/` como diretório de publicação. Não
 ## Privacidade
 
 O progresso fica no navegador do usuário. Não há cadastro obrigatório, anúncios ou trackers nesta versão.
+
+
+## Publicar no Vercel
+
+[Deploy with Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fthannth75%2Fapp)
+
+O projeto já contém `vercel.json`, `package.json` e `build.mjs`. No Vercel, importe este repositório e mantenha as configurações detectadas. O build executa `npm run build` e publica a pasta `dist`.
